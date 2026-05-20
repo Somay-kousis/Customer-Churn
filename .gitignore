@@ -1,0 +1,103 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.notebook-env/
+.python-version
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Data Files
+# =========================
+data/raw/
+data/interim/
+data/processed/
+
+# Keep small sample data if needed
+!data/sample/
+
+# Ignore large datasets
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.h5
+
+# =========================
+# ML Models
+# =========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Streamlit / Dash (optional)
+# =========================
+.streamlit/
+
+# =========================
+# Notebook outputs (optional)
+# Uncomment if you want clean notebooks
+# =========================
+# *.ipynb
